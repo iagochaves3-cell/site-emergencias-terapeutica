@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-24T03:00:00Z",
+  "canonicalHash": "847478d934c7d2fae0e3907708ec419aa141a9581d7fe9fdc526aef6357c60c8",
+  "bundleHash": "a88a9644ca3a1e6eb25e0a43e49d2c59aaf343ac3a7e4d2f62a04a720cfb5f8d",
+  "destination": {
+    "projectId": "appgprj_6abc7d5bd0348191aae2f1e96814c82a",
+    "title": "Emergências e Terapêutica",
+    "slug": "emergencias-e-terapeutica",
+    "scope": "full"
+  },
+  "counts": {
+    "diagnoses": 953,
+    "medications": 676,
+    "therapies": 696,
+    "scores": 242,
+    "pedwbTopics": 330,
+    "documents": 9
+  },
+  "policy": {
+    "purpose": "Compartilhamento contextual de diagnósticos, síndromes, medicamentos e linhas terapêuticas entre SitesGPTs clínicos.",
+    "safety": "Conteúdo importado mantém proveniência e não é promovido automaticamente para cálculo ou prescrição. Regimes numéricos exigem indicação, população, apresentação, fonte e tripla checagem clínica, farmacêutica e matemática/reversa no destino.",
+    "deduplication": "Normalização lexical agrupa variantes e terapêuticas pela identidade clínica (nome + diagnósticos), independentemente do módulo exportador; registros originais permanecem em sources e divergências não são fundidas silenciosamente.",
+    "applicability": "Cada destino recebe somente as categorias compatíveis com sua finalidade operacional."
+  }
+}
